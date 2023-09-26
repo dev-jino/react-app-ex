@@ -1,6 +1,6 @@
-function Input() {
+function Input({name, onChange}) {
     return (
-        <input type="text" placeholder="값을 입력하세요!"/>        
+        <input type="text" value={name} onChange={onChange} placeholder="값을 입력하세요!"/>        
     );
   }
   
